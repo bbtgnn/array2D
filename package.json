@@ -1,0 +1,29 @@
+{
+  "name": "array2d",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "source": "src/index.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": "./dist/index.modern.js",
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js",
+  "scripts": {
+    "build": "microbundle --no-compress",
+    "dev": "microbundle watch --no-compress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbtgnn/array2D.git"
+  },
+  "author": "bbtgnn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbtgnn/array2D/issues"
+  },
+  "homepage": "https://github.com/bbtgnn/array2D#readme",
+  "devDependencies": {
+    "microbundle": "^0.13.0"
+  }
+}

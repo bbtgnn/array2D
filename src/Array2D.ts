@@ -1,6 +1,6 @@
-import Cell2D from "./Cell2D";
+import { Cell2D } from "./Cell2D";
 
-export default class Array2D<T> {
+export class Array2D<T> {
   content: Array<Array<Cell2D<T>>>;
 
   constructor(rows: number, columns: number) {
